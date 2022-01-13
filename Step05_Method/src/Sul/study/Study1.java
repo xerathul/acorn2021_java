@@ -46,8 +46,16 @@ public class Study1 {
 		
 		//MyObject 클래스에 있는 usePhone() 메소드를 호출해 보세요.
 		Phone p1=new Phone();
+		m1.usePhone(p1);
 		
-		
+		//1. MyObject 클래스의 callPhone()  메소드를 호출해 보세요.
+		m1.callPhone(p1);
+		//2. MyObject  클래스의 buyHouse() 메소드를 호출하고 
+		// 리턴되는 참조값을 myHome 이라는 이름의 지역 변수에 담아 보세요.
+		m1.buyHouse();
+		House myHome1 = m1.buyHouse();
+		System.out.println(myHome1);
+	
 		
 	}
 }

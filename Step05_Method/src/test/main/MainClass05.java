@@ -11,5 +11,8 @@ public class MainClass05 {
 		//2. MyObject  클래스의 buyHouse() 메소드를 호출하고 
 		// 리턴되는 참조값을 myHome 이라는 이름의 지역 변수에 담아 보세요.
 		House myHome=MyObject.buyHouse();
+		
+		MyObject.buyHouse().relax("Sul");;
+		MyObject.callPhone(new Phone());
 	}
 }
