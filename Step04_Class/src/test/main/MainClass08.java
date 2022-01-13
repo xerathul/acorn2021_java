@@ -13,14 +13,15 @@ public class MainClass08 {
 		 *  3. 마린으로 공격하고
 		 *  4. 사령부에서 전쟁을 종료 
 		 */
-		//1.
 		Pentagon.startWar();
-		//2. 3. 
 		Marine m1=new Marine();
 		m1.move();
 		m1.attack();
-		//4. 
 		Pentagon.endWar();
+		
+		//console 창에 안녕하세요를 출려하는 프로그래밍을 해보세요
+		System.out.println("안녕하세요");
+		
 	}
 }
 
