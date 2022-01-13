@@ -37,6 +37,8 @@ public class MainClass01 {
 		 *  "999" => 999 정수로 바꾸기 
 		 */
 		int result5=Integer.parseInt("999");
+		int a=Integer.parseInt("1000");
+		System.out.println(a);
 	}
 }
 
