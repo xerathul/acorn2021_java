@@ -1,7 +1,9 @@
 package test.main;
 
+import test.auto.Car;
 import test.mypac.HandPhone;
 import test.mypac.Phone;
+import test.mypac.SuperCar;
 
 public class MainClass02 {
 	public static void main(String[] args) {
@@ -18,6 +20,11 @@ public class MainClass02 {
 		Phone p2=new HandPhone();
 		//HandPhone 객체를 생성해서 참조값을 Object type 변수에 담기 
 		Object p3=new HandPhone();
+		HandPhone p4=(HandPhone)p3;
+		p4.takePicture();
+		
+		
+		
 	}
 }
 

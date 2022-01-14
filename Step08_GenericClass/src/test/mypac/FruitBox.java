@@ -1,4 +1,4 @@
-package test.mypac;
+ package test.mypac;
 
 public class FruitBox<T> {
 	
