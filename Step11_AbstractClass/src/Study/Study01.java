@@ -11,5 +11,7 @@ public class Study01 {
 		
 		Weapon w=null;
 		w.attack();
+		
+		
 	}
 }

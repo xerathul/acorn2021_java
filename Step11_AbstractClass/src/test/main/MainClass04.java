@@ -10,13 +10,13 @@ public class MainClass04 {
 		 *  지역변수에 담기 
 		 */
 		Weapon w1=new Weapon() {
-
+			
 			@Override
 			public void attack() {
-				System.out.println("Annonymous local inner Class");
-				
+				System.out.println("Annonymous local inner Class");				
 			}
 		};
+		
 		useWeapon(w1);
 		useWeapon(w1);
 	}
