@@ -1,12 +1,10 @@
-package test.main;
+package Study;
 
 import test.mypac.MyUtil;
-import test.mypac.MyUtil.User;
 import test.mypac.Zoo;
-import test.mypac.Zoo.Cat;
-import test.mypac.Zoo.Monkey;//Zoo 클래스의 내부클래스 Monkey import
+import test.mypac.Zoo.Monkey;
 
-public class MainClass01 {
+public class Study01 {
 	public static void main(String[] args) {
 		/*
 		 *  Zoo 클래스에 있는 getMonkey() 메소드를 호출해서
@@ -14,18 +12,7 @@ public class MainClass01 {
 		 */
 		Zoo z=new Zoo();
 		Monkey m1=z.getMonkey();
-		m1.say();
+		MyUtil u=new MyUtil();
 		
-		
-		
-		//고양이
-		Cat c=new Zoo().getCat();
-		c.say();
 	}
 }
-
-
-
-
-
-
