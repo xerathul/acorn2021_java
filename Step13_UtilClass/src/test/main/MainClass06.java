@@ -37,6 +37,7 @@ public class MainClass06 {
 					" 주소는 "+members.get(i).getAddr();
 			System.out.println(info);
 		}
+		
 		System.out.println("---------------------");
 		for(int i=0; i<members.size(); i++) {
 			MemberDto tmp=members.get(i);
@@ -45,6 +46,7 @@ public class MainClass06 {
 					" 주소는 "+tmp.getAddr();
 			System.out.println(info);
 		}
+		
 		System.out.println("---------------------");
 		//확장 for 문을 사용하면 
 		for(MemberDto tmp:members) {
