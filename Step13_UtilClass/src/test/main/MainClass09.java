@@ -30,7 +30,7 @@ public class MainClass09 {
 		//저장된 아이템의 갯수
 		int size=set1.size(); //3
 		
-		//정수가 일렬로 담겨진 Intertor 객체의 참조값 얻어내기 
+		//정수가 일렬로 담겨진 Itertor(반복자) 객체의 참조값 얻어내기 
 		Iterator<Integer> it=set1.iterator();
 		//커서 다음에 데이터가 있으면 
 		while(it.hasNext()) {
