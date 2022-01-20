@@ -16,10 +16,10 @@ public class Study01 {
 		f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		f.setLayout(null);
 		
-		
 		JButton btn= new JButton("눌러바");
 		btn.setBounds(50,50,100,40);
 		f.add(btn);
+		
 		f.setVisible(true);
 		
 		ActionListener listener =new ActionListener() {

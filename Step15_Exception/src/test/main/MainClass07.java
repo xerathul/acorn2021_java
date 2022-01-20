@@ -11,7 +11,7 @@ import java.util.Random;
 public class MainClass07 {
 	public static void main(String[] args) {
 		System.out.println("main 메소드가 시작 되었습니다.");
-		
+	
 		Random ran=new Random();
 		int ranNum=ran.nextInt(3);
 		if(ranNum==0) {//우연히 0 이 나오면 
