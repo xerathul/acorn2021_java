@@ -21,11 +21,12 @@ public class MainClass15 {
 		FileOutputStream fos=null;	
 		try {
 			//파일로 부터 byte 알갱이를 읽어들일수 있는 객체 생성
-			fis=new FileInputStream(new File("c:/myFolder/1.jpg"));
+			fis=new FileInputStream(new File("c:/myFolder/1.png"));
 			//파일에 byte 알갱이를 출력할수 있는 객체 생성 
-			fos=new FileOutputStream(new File("c:/myFolder/copied.jpg"));
+			fos=new FileOutputStream(new File("c:/myFolder/copied.png"));
 			while(true) {
 				int data=fis.read(); //1byte 읽어들이기
+				
 				System.out.println(data);
 				if(data == -1) {//더이상 읽을 데이터가 없으면
 					break;//while 반복문 탈출

@@ -11,6 +11,7 @@ public class MainClass01 {
 		try {
 			System.out.print("문자1개 입력:");
 			int code=kbd.read();
+			
 			//입력받은 코드값 출력하기 
 			System.out.println("code:"+code);
 			//코드에 대응되는 문자1개 얻어내는 방법

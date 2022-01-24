@@ -11,6 +11,8 @@ public class MainClass02 {
 		InputStream kbd=System.in;
 		InputStreamReader isr=new InputStreamReader(kbd);
 		
+		
+		//2byte 처리 스트림이기 때문에 한글 입력 가능
 		try {
 			System.out.print("1글자 입력(한글가능):");
 			int code=isr.read();

@@ -35,10 +35,11 @@ public class MainClass16 {
 				int readedCount=fis.read(buffer);
 				if(readedCount==-1) {//더이상 읽을게 없으면
 					break;//반복문 탈출
-				}
+			}
 				//FileOutputStream  객체를 이용해서 
 				//byte 배열에 담긴 데이터를 0번 인덱스로 부터 읽은 갯수만큼 출력한다.
 				fos.write(buffer, 0, readedCount);
+				System.out.println("readedCount:"+readedCount);
 			}
 			
 			System.out.println("파일을 성공적으로 복사 했습니다.");

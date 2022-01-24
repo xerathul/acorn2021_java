@@ -30,6 +30,7 @@ public class MainClass12 {
 			fw.write("\r\n");
 			fw.flush();
 			fw.close(); // .close() 마무리를 해 주어야 한다.
+			
 		}catch(Exception e) {
 			e.printStackTrace();
 		}
