@@ -29,12 +29,13 @@ public class MainClass05 {
 			names.add(line);
 		}
 		//반복문 돌면서 names  에 저장된 내용을 정해진 형식으로 콘솔창에 출력하기
-		for(int i=0; i<5; i++) {
+		for(int i=0; i<names.size(); i++) {
 			//i 번째 저장된 아이템을 읽어와서 
 			String tmp=names.get(i);
 			System.out.println(i+" 번째 친구 이름 : "+tmp);
 		}
 		System.out.println("----------------");
+		
 		for(String tmp:names) {
 			System.out.println("친구 이름 : "+tmp);
 		}

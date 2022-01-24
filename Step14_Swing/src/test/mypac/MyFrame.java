@@ -10,7 +10,8 @@ import javax.swing.JOptionPane;
 public class MyFrame extends JFrame{
 	//생성자
 	public MyFrame() {
-		setLayout(null);
+		
+		this.setLayout(null);
 		JButton btn=new JButton("눌러보셈");
 		btn.setBounds(50, 50, 100, 40);
 		add(btn);
@@ -24,6 +25,7 @@ public class MyFrame extends JFrame{
 		};
 		//지역변수에 저장된 ActionListener 객체의 참조값 전달 
 		btn.addActionListener(listener);
+		
 		//전송 버튼 추가 
 		JButton sendBtn=new JButton("전송");
 		sendBtn.setBounds(200, 50, 100, 40);

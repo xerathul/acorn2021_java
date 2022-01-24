@@ -9,6 +9,7 @@ public class MainClass08 {
 		try {
 			MyUtil.send();
 		} catch (InterruptedException e) {
+			
 			e.printStackTrace();
 		}
 	}

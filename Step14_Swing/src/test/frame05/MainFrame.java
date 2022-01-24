@@ -24,6 +24,7 @@ public class MainFrame extends JFrame implements ActionListener{
 		//JTextField  객체를 생성해서 참조값을 필드에 저장 
 		inputNum1=new JTextField(10);
 		inputNum2=new JTextField(10);
+		
 		//기능 버튼 4 개
 		JButton plusBtn=new JButton("+");
 		JButton minusBtn=new JButton("-");
@@ -82,6 +83,8 @@ public class MainFrame extends JFrame implements ActionListener{
 			label_result.setText(strNum);
 		}catch(NumberFormatException nfe) {
 			JOptionPane.showMessageDialog(this, "숫자 형식으로 입력해 주세요");
+			inputNum1.setText("");
+			inputNum2.setText("");
 		}
 	}
 	

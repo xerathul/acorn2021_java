@@ -12,11 +12,14 @@ public class MainClass01 {
 		 *  참조값이 미리 준비 되어 있으므로 그값을 생성자에 전달하면 된다. 
 		 */
 		Scanner scan=new Scanner(System.in);
+		
 		//콘솔창을 여는 용도로 문자열을 한줄 출력해 준다.
 		System.out.println("문자열 입력:");
 		//콘솔로 부터 문자열 한줄 입력 받기
 		String line=scan.nextLine();
 		System.out.println("입력한 내용:"+line);
 		System.out.println("main 메소드가 종료 됩니다.");
+		System.out.println();
+		
 	}
 }
