@@ -19,12 +19,13 @@ public class MainClass02 {
 	public static void main(String[] args) {
 		//DB 연결 객체를 담을 지역변수
 		Connection conn=null;
+		
 		try {
 			//드라이버 로딩
 			Class.forName("oracle.jdbc.driver.OracleDriver");
 			//접속할 DB 정보
 			//String url="jdbc:oracle:thin:@14.63.164.99:1521:xe";
-			String url="jdbc:oracle:thin:@localhost:1521:xe";
+			String url="jdbc:oracle:thin:@localhost:1522:xe";
 			//접속하고 Connection 객체의 참조값 얻어오기
 			//conn=DriverManager.getConnection(url, "acorn01", "tiger01");
 			conn=DriverManager.getConnection(url, "scott", "tiger");
@@ -36,6 +37,7 @@ public class MainClass02 {
 		//Member 테이블의 내용을 select 해서 console  에 출력해보기
 		PreparedStatement pstmt=null;
 		ResultSet rs=null;
+		
 		try {
 			String sql="SELECT empno,ename,deptno"
 					+ " FROM emp"

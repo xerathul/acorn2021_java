@@ -8,6 +8,7 @@ public class MainClass09 {
 		
 		//이미 만들어진 클래스로 객체를 생성해서 
 		MemberDao dao=new MemberDao();
+		
 		//메소드를 사용하는 사용자 입장이다.
 		boolean isSuccess=dao.delete(851);
 		//위 작업의 성공 여부를 알수가 없다
